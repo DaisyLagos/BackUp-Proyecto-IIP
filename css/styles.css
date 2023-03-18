@@ -2,6 +2,7 @@
 *{
     box-sizing: border-box;
     
+    
 }
 
 :root{
@@ -40,7 +41,7 @@ h1{
     color: var(--titulo-h1);
     font-weight: 800;
     font-family: 'Changa', sans-serif;
-    text-shadow: -5px 5px 5px #b5f3f5;
+    
 }
 
 
@@ -249,6 +250,22 @@ footer .copyright i{
 }
 
 
+
+
+.sombratexto{
+    background: rgba(64, 60, 59, 0.5);
+    width: 98.5%;
+    height: 96%;
+    border-radius: 10px;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+}
+
 .textocarrusel{
     z-index: 1;
     position: absolute;
@@ -256,10 +273,10 @@ footer .copyright i{
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    text-shadow: 5px 5px 5px rgba(128,193,217,0.85) ;
+   
+   
     
 }
-
 
 .planesdeviajes{
     background-color: white;
@@ -270,6 +287,8 @@ footer .copyright i{
 
 .planesdeviajes div p{
     color: black;
+    text-align: center;
+    font-size: 2rem;
 }
 
 .planesdeviajes div img{
@@ -279,6 +298,7 @@ footer .copyright i{
    
     
 }
+
 
 
 .imagenesdiv{
@@ -315,6 +335,11 @@ footer .copyright i{
         font-size: 30px;
         
     }
+
+
+
+
+
     
 .imagen1{
     -webkit-transition: 0.5s linear;
@@ -408,7 +433,7 @@ footer .copyright i{
     
 /*pantallas pequeñas*/
 
-/*Pantallas md*/
+
 @media screen and (min-width:576px) and (max-width: 767px){
 
     .imagenesdiv{
@@ -422,6 +447,10 @@ footer .copyright i{
         height: 600px;
     }
     
+    .textocarrusel{
+        font-size: 1.2rem;
+    }
+
     
     .imagen1{
         -webkit-transition: 0.5s linear;
@@ -474,7 +503,10 @@ footer .copyright i{
         border-radius: 5px; 
         height: 450px;
     }
-    
+
+    .textocarrusel{
+        font-size: 1rem;
+    }
 
     
     .imagen1{
@@ -484,7 +516,7 @@ footer .copyright i{
     
     .imagen1:hover{
         -webkit-transform: scale(0.5);
-        transform: translateX(105px);
+        transform: translateX(80px);
         z-index: 1;
     
     }
@@ -496,7 +528,7 @@ footer .copyright i{
     
     .imagen3:hover{
         -webkit-transform: scale(0.5);
-        transform: translateX(-105px);
+        transform: translateX(-80px);
         z-index: 1;
     
     }
@@ -534,6 +566,11 @@ footer .copyright i{
     height: 500px;
     
 }
+
+.textocarrusel{
+    font-size: 1.5rem;
+}
+
 
 
 
