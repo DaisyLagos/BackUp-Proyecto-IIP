@@ -1,0 +1,410 @@
+/* Inicio propiedades Generales */
+*{
+    box-sizing: border-box;
+    
+}
+
+:root{
+    --fondo-1: #ffe8b3;
+    --color-primario-1: #f89b7e;
+    --color-primario-2: #0f4571;
+    --color-primario-3: #ebb57f;
+    --color-secundario-1: #89abb4;
+    --titulo-h1: #1c3166;
+    --titulo-h2: #b84f04;
+    --titulo-h3: #006AB4; 
+    --parrafos: #262525;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    background-image: url(../img/background-2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;  
+    
+}
+
+.navbar{
+    
+    width: 100%;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+    color: var(--titulo-h1);
+    font-weight: 800;
+    font-family: 'Changa', sans-serif;
+    text-shadow: -5px 5px 5px #b5f3f5;
+}
+
+
+
+h2{
+    font-size: 2.5rem;
+    color: var(--titulo-h2);
+    font-weight: 1000;
+    font-family: 'Changa', sans-serif;
+}
+
+h3{
+    font-size: 2.3rem;
+    font-style: italic;
+    color: var(--titulo-h3);
+    font-weight: 1000;
+    font-family: 'Changa', sans-serif;
+}
+
+p{
+    color: var(--parrafos);
+    font-size: 1.5rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+/* Fin propiedades Generales */
+
+/*Inicio Servicios*/
+
+.servicios-main{
+    margin: 3rem 3rem;
+}
+
+.servicios-titulo p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.servicios{
+    background-color: var(--color-primario-3);
+    border-radius: 7%;
+    padding: 1rem; 
+}
+
+.row{
+    padding: 0.4rem;
+    margin: 0.5rem 0;
+}
+
+.row div{
+    text-align:left;
+    padding: 0.5rem 0.5rem;
+}
+
+.row div p{
+    margin: 0.5rem 0.2rem; 
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+ }
+
+ .servicios .row i{
+    float: left;
+    background-color: #D0F5FF;
+    padding: 0.5rem;
+    border-radius: 25%;
+    color:#004D73;
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+
+/* Formulario */
+.servicios-form{
+    border-radius: 10%;
+    font-size: 1.2rem ;
+    font-weight: 600;
+    margin: 2rem auto;
+    max-width: 30rem;
+    min-height: fit-content;
+    text-align: center;
+    padding: 1rem;
+    background: url(../img/background-form.jpg);
+    background-size: cover;
+    background-position: 0%;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.servicios-form .form-info{
+    border-radius: 10%;
+    background: rgba(255, 230, 215, 0.7);
+    color: #690000;
+    min-height: 18rem;
+    padding: 2.5rem 0;
+    height: 13rem;
+}
+
+.servicios-form .form-info input{
+    font-size: 1rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.servicios-form .form-info input[type="email"]{
+    border-radius: 10px;
+    width: 15rem;
+    padding: 0.5rem;
+    border: none;
+    background-color: whitesmoke;
+   
+}
+
+.servicios-form .form-info input[type="submit"]{
+    display: block;
+    margin: 1rem auto;
+    background-color: #690000;
+    color: bisque;
+    border: none;
+    padding: 0.4rem 0.6rem;
+    font-weight: 500;
+     
+}
+
+.servicios-form .form-info input[type="submit"]:hover{
+    background-color: #FFE6D7;
+    color: #690000;
+    
+}
+
+body .contenedor-contenido{
+    margin: 3rem auto;
+    border-radius: 5%;
+    background: linear-gradient(rgba(128,193,217,0.85), rgba(158,205,222,0.85));
+    width: 95%;
+    padding: 1.5rem;
+    height: max-content; 
+} 
+
+/* Fin Servicios */
+
+
+/* Footer */
+footer{
+    position: relative;
+    width: 100%;
+    color: #D0F5FF;
+    background-color: #567B97;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    
+}
+
+.footer-img{
+    background: url(../img/footer-ariplane.png);
+    background-size: contain;
+    opacity: 0.8;
+}
+
+footer a{
+    color: #EDE9D0;
+}
+
+footer .socialN{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .socialN i{
+    margin: 1.5rem 0;
+    font-size: 2rem;
+}
+
+footer .copyright{
+    display: flex;
+    justify-content: center;
+    padding: 1.2rem 0 1.2rem 0;
+    
+}
+
+footer .copyright i{
+    font-size: 0.6rem;
+}
+
+/* Media Queries */
+
+
+@media only screen and (max-width: 575px) {
+    html{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+    html{
+        font-size: 14px;
+    }
+}
+
+/*index*/
+
+
+
+
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.textocarrusel{
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 5px 5px 5px rgba(128,193,217,0.85) ;
+    
+}
+
+
+.planesdeviajes{
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+}
+
+.planesdeviajes div p{
+    color: black;
+}
+
+.planesdeviajes div img{
+    width: 25%;
+    
+    
+    
+}
+
+@keyframes movimientopanes{
+    50%{
+        transform:scaleX(1)
+    }
+
+}
+
+.imagenesdiv{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 5px;
+    height: 400px;
+    overflow: hidden;
+    
+    
+}
+
+
+
+
+
+/*animaciones de imagenes*/
+
+
+
+
+
+.indexTextoC{
+    position: absolute;
+    z-index: 1;
+    top: 35%;
+    left: 35%;
+    
+}
+
+.planes_viajes_index{
+    margin-top: 50px;
+    border-radius: 5px;
+    height: 500px;
+    
+}
+
+
+.paquetes_temporada_index{
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 5px; 
+    height: 750px;
+}
+
+.paquetes_temporada_index li{
+    list-style: none;
+    list-style: url(/img/001-destino.png);
+    padding-left: 20px;
+}
+
+.paquetes_temporada_img img{
+    width: 100%;
+    height: 380px;
+    margin: 10px;
+    border-radius: 5px;
+    align-items: center;
+    
+}
+
+
+@keyframes movimiento{
+
+    100%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+
+}
+
+.paquetes_temporada_img img:hover{
+
+    animation: movimiento 0.5s ease-in-out;
+    
+}
+
+.promociones_index{
+    margin-top: 50px;
+}
+
+.promociones_index_row img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+@keyframes movimientopromo{
+
+    100%{
+        transform: scaleX(1)
+    }
+    50%{
+        transform: scaleX(0.5);
+    }
+
+}
+
+.promociones_index_row img:hover{
+    border-radius: 50px;
+    animation: movimientopromo 0.5s ease-in-out;
+}
+
+.itinerario_index div p{
+    color: black;
+}
+
+
+@keyframes movimientocard{
+
+    100%{
+        transform: scaleY(1);
+    }
+    50%{
+        transform: scaleY(0.5);
+    }
+
+}
+
+.card:hover{
+    background-color:antiquewhite;
+    animation: movimientocard 0.3s ease-in-out;
+}
